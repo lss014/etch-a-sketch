@@ -1,0 +1,42 @@
+html {
+    text-align: center;
+    background-color: white;
+    border-color: black;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right {
+    float: right;
+  }
+  
+  .pixel {
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  .color {
+    background-color: purple;
+    border: 1px solid black;
+  }
+  
+  .grid{
+    margin-top: 30px;
+    margin-right: 0px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 1px solid black;
+    height: 575px;
+    width: 575px;
+  }
+
+  #title{
+    color: purple;
+  }
